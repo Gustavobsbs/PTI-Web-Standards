@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+  font-family: 'Cinzel', serif;
+}
+#id{
+    font-display: red;
+}
+header {
+    background-image: url('/public/assets/image/fundo.webp');
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 8em;
+}
+
+main {
+    display: list-item;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4em;
+}
+
+section {
+    flex: 3;
+    min-width: 300px;
+    margin: 4em;
+    padding: 4em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+form {
+    display: list-item;
+    flex-direction: column;
+    inline-size: 50%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+    }
+}
+
+  
